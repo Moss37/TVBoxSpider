@@ -1,0 +1,6 @@
+framework module Pods_TVBoxSpider {
+  umbrella header "Pods-TVBoxSpider-umbrella.h"
+
+  export *
+  module * { export * }
+}
