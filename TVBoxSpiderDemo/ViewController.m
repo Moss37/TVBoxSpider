@@ -40,9 +40,7 @@
 //    }];
 }
 
-- (IBAction)testActions:(id)sender {
-    [self testHongxujixie];
-    return;
+- (IBAction)testAction:(id)sender {
     
     NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"jumi" ofType:@"json"];
     NSString *jsonString = [[NSString alloc] initWithContentsOfURL:[NSURL fileURLWithPath:jsonPath] encoding:NSUTF8StringEncoding error:nil];
